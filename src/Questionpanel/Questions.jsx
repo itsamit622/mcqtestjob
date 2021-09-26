@@ -21,7 +21,6 @@ function Questions() {
     const nextQuestion = () => {
         let current = current_question_no + 1;
         if (current <= total_question) {
-            console.log("valuehkggs", current)
             setCurrent_question_no(
                 current
             )
