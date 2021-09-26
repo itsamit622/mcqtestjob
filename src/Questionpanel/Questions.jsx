@@ -40,17 +40,17 @@ function Questions() {
             setCorrectAnswers(
                 correctAnswers + 1
             )
-            const yourScore = (((correctAnswers + 1) / (total_question)) * 100);
+            const yourScore = (((correctAnswers + 1) / (total_question)) * 100).toFixed(0);
             setScore(yourScore);
 
         }
         else {
             
-            const yourScore = (((correctAnswers ) / (total_question)) * 100);
+            const yourScore = (((correctAnswers ) / (total_question)) * 100).toFixed(0);
             setScore(yourScore);
         }
 
-        let yourMaxScore = (((current_question_no) / (total_question)) * 100);
+        let yourMaxScore = (((current_question_no) / (total_question)) * 100).toFixed(0);
         setMaxScore(yourMaxScore)
     }
 
