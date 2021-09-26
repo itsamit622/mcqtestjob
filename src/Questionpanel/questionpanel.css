@@ -1,0 +1,20 @@
+.list ul {
+    display: inline-block;
+
+}
+
+.custom_design{
+    
+    border: 4px solid grey;
+    padding-top: 0px;
+}
+.custom_design1 {
+    border: 2px solid grey;
+    padding: 1px;
+
+
+}
+.question-options .btn{
+    display: block;
+    width: 100%;
+}
